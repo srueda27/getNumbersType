@@ -11,7 +11,7 @@ To get started with this project, you need to have Node.js and npm (Node Package
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/srueda27/getNumbersType.git
+    git clone https://github.com/srueda27/getNumbersType.git [your-project-directory]
     cd [your-project-directory]
     ```
 
