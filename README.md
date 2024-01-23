@@ -73,8 +73,8 @@ npm test
 - **Body:**
   ```json
   {
-      "collectionName": "string",
-      "number": number
+      "collectionName": "FirstCollection",
+      "number": 15
   }
   ```
 - **Description:** Saves a number to a specified collection.
@@ -83,11 +83,32 @@ npm test
 
 - **Endpoint:** `GET /collections/listAll`
 - **Description:** Returns a list of all collections saved in the system.
+- **Return:** 
+```json
+  {
+      collections: {
+          "FirstCollection": [
+            { value: 15, type: 'Type 3' },
+          ],
+        }
+  }
+  ```
 
 ### 5. Get Numbers in a Collection
 
 - **Endpoint:** `GET /list/:collectionName`
 - **Description:** Returns the collection with all the numbers and their types saved in that collection.
+- - **Return:** 
+```json
+  {
+      "collection": [
+        {
+            "value": 15,
+            "type": "Type 3"
+        }
+    ]
+  }
+  ```
 
 ## Contributing
 
