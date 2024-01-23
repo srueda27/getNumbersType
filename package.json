@@ -1,0 +1,31 @@
+{
+  "name": "trafilea",
+  "version": "1.0.0",
+  "description": "This is a project designed to let the user know if a number is multiple of 3, 5, both or none. Also allows you to create collection of numbers.",
+  "scripts": {
+    "test": "jest --watch",
+    "tsc": "tsc",
+    "start": "node ./build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srueda27/getNumbersType.git"
+  },
+  "author": "Santiago Rueda Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.5",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.1",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/jest": "^29.5.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2"
+  }
+}
