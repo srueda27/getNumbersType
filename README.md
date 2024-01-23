@@ -88,7 +88,7 @@ npm test
   {
       "collections": {
           "FirstCollection": [
-            { value: 15, type: 'Type 3' },
+            { "value": 15, "type": 'Type 3' },
           ],
         }
   }
