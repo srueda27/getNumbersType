@@ -98,7 +98,7 @@ npm test
 
 - **Endpoint:** `GET /list/:collectionName`
 - **Description:** Returns the collection with all the numbers and their types saved in that collection.
-- - **Return:** 
+- **Return:** 
 ```json
   {
       "collection": [
