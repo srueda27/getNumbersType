@@ -92,7 +92,3 @@ npm test
 ## Contributing
 
 Contributions to this project are welcome. Please ensure to follow the code of conduct and coding standards of the project.
-
-## License
-
-[Your License Here]
