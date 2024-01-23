@@ -86,7 +86,7 @@ npm test
 - **Return:** 
 ```json
   {
-      collections: {
+      "collections": {
           "FirstCollection": [
             { value: 15, type: 'Type 3' },
           ],
